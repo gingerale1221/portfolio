@@ -605,6 +605,9 @@ h4 {
 
 /*----------------------------------------- 7) Sections --------------------------------------------------*/
 /*---------- a. portfolio -----------*/
+.align-center {
+  text-align: center;
+}
 ul.portfolio-image {
   list-style: none;
   position: relative;
@@ -684,13 +687,13 @@ ul.portfolio-image li .desc{
   right: 0;
   text-align: center;
   color: #2f2f2f;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
 }
 
 ul.portfolio-image li .long-desc {
-  font-size: 13px;
-  line-height: 21px;
+  font-size: 14px;
+  line-height: 22px;
   text-transform: none;
   position: absolute;
   z-index: 1;
